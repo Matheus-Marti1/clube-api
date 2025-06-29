@@ -71,17 +71,11 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 **1. Clone o repositório:**
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
-cd [NOME_DA_PASTA_DO_PROJETO]
+git clone https://github.com/Matheus-Marti1/clube-api.git
+cd clube-api
 ```
 
-**2. Crie o Banco de Dados:**
-Execute o seguinte comando no seu cliente MySQL para criar o banco de dados que a aplicação usará:
-```sql
-CREATE DATABASE clube_db;
-```
-
-**3. Configure a Conexão:**
+**2. Configure a Conexão:**
 Abra o arquivo `src/main/resources/application.properties` e altere as seguintes propriedades com as credenciais do seu banco de dados MySQL:
 ```properties
 # Altere com o seu usuário e senha do MySQL
@@ -89,7 +83,7 @@ spring.datasource.username=root
 spring.datasource.password=sua_senha
 ```
 
-**4. Execute a Aplicação:**
+**3. Execute a Aplicação:**
 Você pode rodar o projeto de duas formas:
 
 * **Via Maven (linha de comando):**
@@ -101,7 +95,3 @@ Você pode rodar o projeto de duas formas:
   Abra o projeto na sua IDE e execute a classe principal `ClubeApplication.java`.
 
 A aplicação estará disponível em `http://localhost:8080`.
-
-## Desenvolvido por
-
-* [Seu Nome Completo Aqui]
