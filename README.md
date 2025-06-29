@@ -55,7 +55,7 @@ A API oferece um conjunto completo de endpoints para gerenciar os principais rec
 
 Toda a API está documentada e pode ser testada de forma interativa através do Swagger UI. Após iniciar a aplicação, acesse:
 
-[**http://localhost:8080/swagger-ui.html**](http://localhost:8080/swagger-ui.html)
+[**http://localhost:8080/swagger-ui/index.html#/**](http://localhost:8080/swagger-ui/index.html#/).
 
 ## Pré-requisitos para Execução
 
@@ -94,4 +94,4 @@ Você pode rodar o projeto de duas formas:
 * **Via sua IDE (IntelliJ, Eclipse, VSCode):**
   Abra o projeto na sua IDE e execute a classe principal `ClubeApplication.java`.
 
-A aplicação estará disponível em `http://localhost:8080`.
+A aplicação estará disponível em [**http://localhost:8080/swagger-ui/index.html#/**](http://localhost:8080/swagger-ui/index.html#/).
